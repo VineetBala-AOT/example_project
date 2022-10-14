@@ -19,4 +19,4 @@ RUN pip install \
 WORKDIR /opt/dagster/
 ENV PYTHONPATH=/app
 
-COPY ./example_project /opt/dagster
+COPY . /opt/dagster
